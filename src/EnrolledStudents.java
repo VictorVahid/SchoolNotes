@@ -11,6 +11,7 @@ public class EnrolledStudents {
 	/*Métodos*/
 	public double Media() {
 		double media = (Nota1 * 2.5 + Nota2 * 2.5 + Trabalho * 2) / 5;
+		if (media >10) return media = 10;
 		return media;
 	}
 
