@@ -10,7 +10,7 @@ public class EnrolledStudents {
 
 	/*Métodos*/
 	public double Media() {
-		return (Nota1 * 2.5 + Nota2 * 2.5 + Trabalho * 2) /5;
+		return (Nota1 * 2.5 + Nota2 * 2.5 + Trabalho * 2) /7;
 	}
 
 	public double ProvaFinal() {
